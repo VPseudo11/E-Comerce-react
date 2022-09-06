@@ -1,7 +1,23 @@
 .go {
+    padding: 20px;
     border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.pol {
+    width: 30%;
+        padding: 12px 0;
+        border: none;
+        background: rgba(248, 85, 85, 1);
+        color: white;
+        font-size: 1rem;
+        margin: 15px 0;
+        cursor: pointer;
+       
+}
+.pol :hover{
+    transform: scale(1.1);
+    transition: all .3s ease;
 }

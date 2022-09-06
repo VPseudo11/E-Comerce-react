@@ -3,7 +3,7 @@ import FormLogin from '../login/FormLogin'
 
 const Login = () => {
     return (
-        <main>
+        <main className='MainContainer'>
             <FormLogin />
         </main>
     )

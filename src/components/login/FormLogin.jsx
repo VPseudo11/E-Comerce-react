@@ -17,15 +17,15 @@ const FormLogin = () => {
     return (
         <form className='go' onSubmit={handleSubmit(submit)}>
             <h2>Login</h2>
-            <div>
-                <label htmlFor="email">Email</label>
+            <div className='email1'>
+                <label htmlFor="email">Email  </label>
                 <input {...register('email')} type="email" id='email' />
             </div>
-            <div>
-                <label htmlFor="password">Password</label>
+            <div className='pass2'>
+                <label htmlFor="password">Password </label>
                 <input {...register('password')} type="password" id='password' />
             </div>
-            <button>Log In</button>
+            <button className='pol'>Log In</button>
         </form>
     )
 }
