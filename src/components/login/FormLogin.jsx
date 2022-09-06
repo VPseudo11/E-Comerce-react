@@ -1,5 +1,6 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
+import "./FormLogin.css"
 
 const FormLogin = () => {
 
@@ -14,7 +15,7 @@ const FormLogin = () => {
     }
 
     return (
-        <form onSubmit={handleSubmit(submit)}>
+        <form className='go' onSubmit={handleSubmit(submit)}>
             <h2>Login</h2>
             <div>
                 <label htmlFor="email">Email</label>

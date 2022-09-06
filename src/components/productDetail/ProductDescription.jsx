@@ -74,7 +74,12 @@ const PurchaseSection = styled.section`
         color: white;
         font-size: 1rem;
         margin: 15px 0;
-    }
+        cursor: pointer;
+        &:hover{
+        transform: scale(1.1);
+        transition: all .3s ease;
+ }
+}
 `
 
 const PurchaseDiv = styled.div`
